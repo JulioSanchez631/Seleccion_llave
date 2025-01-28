@@ -1,0 +1,76 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  background-color: black;
+  box-sizing: border-box;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+}
+
+.contenedor{
+  display:flex;
+  justify-content: center;
+  margin:auto;
+  max-width: 80%;
+  flex-wrap: wrap;
+  gap:12px; 
+  padding:12px;
+}
+
+.box-item{
+  border:1px solid white;
+  border-radius: 12px;
+  width: 22%;
+  text-align: center;
+  padding:12px;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  gap:16px;
+  background-color: black;
+}
+
+.box-item:hover{
+  outline: greenyellow 3px solid;
+  box-shadow: greenyellow 2px 2px 22px;
+}
+
+.box-item p{
+  color:green;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-item h2{
+  color:greenyellow;
+}
+
+.box-item h4{
+  color:white;
+}
+
+.img_key{
+  width: 80px;
+  border-radius:12px;
+}
+
+.form_seleccion{
+  width: 100%;
+  display:flex;
+  justify-content: center;
+}
+
+.boton_comprar{
+  padding:12px;
+  letter-spacing: 2px;
+  background-color: green;
+  color:greenyellow;
+  outline:none;
+  border:none;
+}
+
+.seleccion{
+  background-color: rgb(0, 46, 0);
+}
